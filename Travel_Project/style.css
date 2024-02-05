@@ -1,15 +1,14 @@
-/* Reset some default styles */
+
 *{
     margin: 0;
     padding: 0;
   }
-  
-  /* Apply a box-sizing border-box model to all elements */
+ 
   *, *::before, *::after {
     box-sizing:border-box;
   }
   
-  /* Set default font and background color */
+
   body {
     font-family: 'Arial', sans-serif;
     background-color:aliceblue;
@@ -18,7 +17,7 @@
     padding: 0;
   }
   
-  /* Header styling */
+
   header {
     background-color: #e5adad;
     color: #fff;
@@ -53,7 +52,7 @@
   }
  
   
-  /* Main content container */
+
   main {
     width: 80%;
     max-width: 1200px;
@@ -66,7 +65,7 @@
     box-shadow: 0 0 10px rgba(237, 120, 120, 0.1);]
   }
   
-  /* Responsive design for smaller screens */
+
   @media (max-width: 768px) {
     main {
       width: 100%;
@@ -74,7 +73,7 @@
     }
   }
   
-  /* Individual content sections styling */
+
   h1 {
     color: #333;
   }
@@ -100,7 +99,7 @@
     cursor: pointer;
   }
   
-  /* Footer styling (you can add more styles as needed) */
+
   footer {
     background-color: #333;
     color: #fff;
